@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(245, 244, 246);
+
+}
+
+
+#whole {
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 40%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#upper-part {
+
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(64, 113, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+
+}
+
+#upper-part img {
+    width: 150px;
+    height: 150px;
+    margin-top: 15%;
+    border-radius: 50%;
+    outline: 3px solid rgb(64, 113, 237);
+    border: 3px solid white;
+}
+
+#lower-part {
+
+
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+#lower-part h1 {
+    font-size: 100%;
+    text-align: center;
+}
+
+#lower-part p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons .icons {
+
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 255);
+    border-radius: 50%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .icons {
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64, 113, 237);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.buttons .icons p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
