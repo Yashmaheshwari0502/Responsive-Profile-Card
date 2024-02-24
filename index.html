@@ -6,43 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Profile Card</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div id="whole">
-        <div id="upper-part"><img src="monkey_d_luffy_image.jpg" alt=""></div>
-        <br>
-        <br>
+    <div class="profile-card">
+        <div class="image">
+            <img src="monkey_d_luffy_image.jpg" alt="" class="profile-img">
+        </div>
+        <div class="text-data">
+            <span class="name">Monkey d luffy</span>
+            <span class="job">King of the pirates</span>
+        </div>
 
-        <div id="lower-part">
-            <h1>MonkeyDLuffy</h1>
-            <p>I'm gonna be king of the pirates</p>
+        <div class="media-buttons">
+            <a href="#" style="background:#4267b2 ;" class="link">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="#" style="background: #1da1f2;" class="link">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="#" style="background: #e1306c;" class="link">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="#" style="background: #ff0000;" class="link">
+                <i class='bx bxl-youtube'></i>
+            </a>
         </div>
-        <div id="social-icons">
-            <div class="icons"><img src="facebook_image.png" alt="" width="100%"></div>
-            <div class="icons"><img src="twitter_image.png" alt="" width="100%"></div>
-            <div class="icons"><img src="instagram_image.jpg" alt="" width="100%"></div>
-            <div class="icons"><img src="youtube_image.png" alt="" width="100%"></div>
-        </div>
+
         <div class="buttons">
-            <div class="icons"><p>Subscribe</p></div>
-            <div class="icons"><p>Message</p></div>
-
+        <button class="button">Subscribe</button>
+        <button class="button">Message</button>
         </div>
-        <div id="online">
-            <div>
-                <img src="heart_icon.png" alt="">
-                <p>60k</p>
+
+        <div class="analytics">
+            <div class="data">
+                <i class='bx bx-heart'></i>
+                <span class="number">60k</span>
             </div>
-            <hr class="icons-hr">
-            <div>
-                <img src="comment_icon.png" alt="">
-                <p>60k</p>
+            <div class="data">
+                <i class='bx bx-message-rounded'></i>
+                <span class="number">20k</span>
             </div>
-            <hr class="icons-hr">
-            <div>
-                <img src="share_icon.png" alt="">
-                <p>60k</p>
+            <div class="data">
+                <i class='bx bx-share'></i>
+                <span class="number">12k</span>
             </div>
         </div>
     </div>
